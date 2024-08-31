@@ -14,6 +14,37 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+########
+Core Features:
+
+User Authentication & Roles:
+Implement authentication using Supabase
+Differentiate between Admin and Management (two roles)
+Asset Management:
+Asset CRUD Operations:
+
+Allow Admin to Create, View, Modify, and Delete Assets anytime.
+Management users can only view the assets from the UI.
+Asset Listing:
+
+Use either Mantine-Table or TanStack-Table to display the list of assets.
+The table should support pagination, sorting, and filtering.
+Asset Details:
+
+Show a detailed view of the asset when clicking a single row from the table.
+User Flow:
+
+Authentication
+Dashboard (to display all assets and add a new asset)
+Profile Page
+User should be able to update profile details like first name, last name, and designation.
+Logout
+![alt text](image.png)
+![alt text](image-1.png)
+###########
+
+
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
